@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obter Todas as Atividades</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Incluir Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Menu de navegação -->
+  <nav>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="obter-atividades.html">Obter Todas as Atividades</a></li>
+        <li><a href="criar-atividade.html">Criar Nova Atividade</a></li>
+        <li><a href="atualizar-atividade.html">Atualizar Atividade</a></li>
+        <li><a href="excluir-atividade.html">Excluir Atividade</a></li>
+    </ul>
+  </nav>
+
+  <!-- Conteúdo principal da página -->
+  <div class="container">
+    <h1><i class="fas fa-users"></i> Obter Todas as Atividades</h1>
+
+    <table id="tabelaFuncionarios">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Ação</th>
+          <th>Observação</th>
+        </tr>
+      </thead>
+      <tbody id="listaAtividades">
+        <!-- Atividades serão listadas aqui -->
+      </tbody>
+    </table>
+
+    <a href="index.html">Voltar à página principal</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

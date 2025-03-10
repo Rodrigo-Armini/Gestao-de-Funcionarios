@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Nova Atividade</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Incluir Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Menu de navegação -->
+  <nav>
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="obter-atividades.html">Obter Todas as Atividades</a></li>
+        <li><a href="criar-atividade.html">Criar Nova Atividade</a></li>
+        <li><a href="atualizar-atividade.html">Atualizar Atividade</a></li>
+        <li><a href="excluir-atividade.html">Excluir Atividade</a></li>
+    </ul>
+  </nav>
+
+  <!-- Conteúdo principal da página -->
+  <div class="container">
+    <h1><i class="fas fa-user-plus"></i> Criar Nova Atividade</h1>
+
+    <form id="formCriarAtividade">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Digite o nome da atividade" required>
+
+      <label for="acao">Ação:</label>
+      <input type="text" id="acao" placeholder="Digite a ação da atividade" required>
+
+      <label for="observacao">Observação:</label>
+      <input type="text" id="observacao" placeholder="Digite a observação da atividade" required>
+
+      <button type="submit"><i class="fas fa-save"></i> Salvar Atividade</button>
+    </form>
+
+    <a href="index.html">Voltar à página principal</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
